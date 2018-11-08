@@ -7,5 +7,5 @@ You will recieve extra credit equivalent to one homework assignment.  The fifth 
 * [AA1: Implement OFFSET in DataBass](./databass/offset.md)
 * ~AA2: Graph analysis using common table expressions~ (canceled)
 * [AA3: Query Compilation](./databass/compile.md)
-* [AA4: Fun with Window Functions](./)
+* [AA4: Fun with Window Functions](./window.md)
 * [AA5: Join Optimization](./databass/join.md)
