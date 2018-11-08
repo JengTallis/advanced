@@ -1,6 +1,6 @@
 # AA4: Fun with Window Functions
 
-To be done **individually**.
+To be done [**individually**](https://w4111.github.io/syllabus#assignment-collaboration-policies-aka-cheating).
 
 * Assigned: Nov 8
 * Due: Nov 15 10AM
