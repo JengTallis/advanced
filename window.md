@@ -1,5 +1,7 @@
 # AA4: Fun with Window Functions
 
+To be done **individually**.
+
 * Assigned: Nov 8
 * Due: Nov 15 10AM
 * Submission via Instabase
