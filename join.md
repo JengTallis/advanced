@@ -94,64 +94,23 @@ To help you with the assignment we have implemented a topdown join ordering algo
 
 The top down implementation relies on cost and cardinality estimates to decide which plans are good, however we have not implemented the `SelingerOpt.cost()` and `SelingerOpt.card()` methods.  Edit these methods to estimate the appropriate statistics.  
 
-Now run `python test_optimizer.py`; the cost estimate tests should now pass.
-
 #### Part 4: Selinger
 
 Now that you can estimate join cardinalities, you can implement the selinger join ordering algorithm in `SelingerOpt.best_plan()`    
 
 To do so, first implement `SelingerOpt.best_initial_join()`, which identifies the 2-table join with the lowest cost.  This initializes the left deep join plan, and you will then edit `best_plan()` to iteratively add additional joins to the plan.
 
-Now run `python test_optimizer.py`; all tests should now pass.
+### Part 5: Checking
+
+Now run `python test_optimizer.py` and compare your printed join plan to the ones in the test case comments.
+
+### Submission Instructions
 
 
-### Logistics
+Go to the root of your databass codebase repository, and run `git pull` to make sure you have the most recent version.  You should see a submission script `submit.py`.
 
-You will submit your solutions but [submitting a pull request](https://help.github.com/articles/creating-a-pull-request/) to the assignment GitHub repository.    We will consider the latest pull request prior to the submission deadline.
+Run the submission script `submit.py` to package and zip your file.  It will ask you to submit you and your partners' UNIs and specify the assignment. It will create a zip file in the current directory.  Submit the generated ZIP file to Canvas. 
 
+        python submit.py --help
 
-The criteria for your lab being submitted on time is that your code must be **tagged** and  **pushed** by the date and time. This means that if one of the TAs or the instructor were to open up GitHub, they would be able to see your solutions on the GitHub web page.
-
-Just because your code has been committed on your local machine does not mean that it has been **submitted**; it needs to be on GitHub.
-
-There is a bash script `submitJoinLab.sh` that commits your changes, deletes any prior tag, tags the current commit, and pushes the tag to github.  If you are using Linux or Mac OSX, you should be able to run the following:
-
-		$ sh ./submitJoinLab.sh
-
-
-If the above command worked for you, you can skip to item 6 below.  If not, submit your solutions as follows:
-
-1. Look at your current repository status.
-
-   ```bash
-   $ git status
-   ```
-
-2. Add and commit your code changes (if they aren't already added and commited).
-
-   ```bash
-    $ git commit -a -m 'Join Lab'
-   ```
-
-3. Delete any prior local and remote tag (*this will return an error if you have not tagged previously; this allows you to submit multiple times*)
-
-   ```bash
-   $ git tag -d joinsubmit
-   $ git push origin :refs/tags/joinsubmit
-   ```
-
-4. Tag your last commit as the lab to be graded 
-
-   ```bash
-   $ git tag -a joinsubmit -m 'submit join lab'
-   ```
-
-5. This is the most important part: **push** your solutions to GitHub.
-
-   ```bash
-   $ git push origin master --tags
-   ```
-
-6. The last thing that we strongly recommend you do is to go to the w4111 GitHub organization  page  to make sure that we can see your solutions.
-
-Just navigate to your repository and check that your latest commits are on GitHub. 
+Both partners should submit on their Canvas accounts to AA1.
