@@ -1,8 +1,3 @@
----
-layout: page
----
-
-
 [Advanced Assignments](./) > [DataBass](./databass)
 
 ## AA5: Join Ordering Optimization
