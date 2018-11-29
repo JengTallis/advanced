@@ -4,7 +4,7 @@
 
 
 * Released: 11/15
-* Due: 12/6 10AM
+* Due: 12/10 10AM
 * Value: 5% of your grade
 * Max team of 2
 
