@@ -108,4 +108,4 @@ Run the submission script `submit.py` to package and zip your file.  It will ask
 
         python submit.py --help
 
-Both partners should submit on their Canvas accounts to AA1.
+Both partners should submit on their Canvas accounts to AA5.
