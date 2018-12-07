@@ -8,4 +8,4 @@ You will recieve extra credit equivalent to one homework assignment.  The fifth 
 * ~AA2: Graph analysis using common table expressions~ (canceled)
 * [AA3: Query Compilation](./databass/compile.md)
 * [AA4: Fun with Window Functions](./window.md)
-* [AA5: Join Optimization](./databass/join.md)
+* [AA5: Join Optimization](./advanced/blob/master/join.md)
